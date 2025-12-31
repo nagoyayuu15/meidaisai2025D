@@ -10,18 +10,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "firebase": "^10.0.0",
+    "firebase": "^10.14.1",
     "firebaseui": "^6.1.0",
     "highlight.js": "^11.11.1",
-    "pixi.js": "^8.9.2",
-    "solid-js": "^1.9.5"
+    "pixi.js": "^8.14.3",
+    "solid-js": "^1.9.10"
   },
   "devDependencies": {
     "jsdom": "^26.1.0",
-    "prettier": "^3.5.3",
+    "prettier": "^3.7.4",
     "typescript": "~5.8.3",
-    "vite": "^6.3.5",
-    "vite-plugin-solid": "^2.11.6",
+    "vite": "^6.4.1",
+    "vite-plugin-solid": "^2.11.10",
     "vitest": "3.1.4"
   }
 }
