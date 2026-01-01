@@ -24,14 +24,18 @@ import { initializeApp } from "firebase/app";
 const firebaseApp = initializeApp(
     isDev 
     ? {
-        projectId: "demo-metype-ffe25",
+        projectId: "demo-metype-7e24a",
         apiKey: "fake-api-key",
-        authDomain: "demo-metype-ffe25.firebaseapp.com"
+        authDomain: "demo-metype-7e24a.firebaseapp.com"
     } 
     : {
-        projectId: "metype-ffe25",
-        apiKey: "AIzaSyA8p4gso3Jo2N00ABARjlBICy471S58PpU",
-        authDomain: "metype-ffe25.web.app"
+        apiKey: "AIzaSyCBi3d1CfJaLBkV7lnITzQ2kYwzsFkYArg",
+        authDomain: "metype-7e24a.firebaseapp.com",
+        projectId: "metype-7e24a",
+        storageBucket: "metype-7e24a.firebasestorage.app",
+        messagingSenderId: "991070879902",
+        appId: "1:991070879902:web:c692b4a25052ca78defb8f",
+        measurementId: "G-VZZYM5HTJ6"
     }
 );
 
@@ -56,12 +60,12 @@ export const Firebase = {
 // 定数
 export const Host = {
      functions : isDev 
-        ? 'http://127.0.0.1:5001/metype-ffe25/asia-northeast1/appFunction'
-        : 'https://metype-ffe25.firebaseapp.com',
+        ? 'http://127.0.0.1:5001/metype-7e24a/asia-northeast1/appFunction'
+        : 'https://metype-7e24a.web.app',
 
      hosting : isDev
         ? 'http://127.0.0.1:5000'
-        : 'https://metype-ffe25.web.app'
+        : 'https://metype-7e24a.web.app'
 }
 
 // Singleton - 実装版のUserDataManagerを使用

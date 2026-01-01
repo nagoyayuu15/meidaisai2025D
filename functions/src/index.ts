@@ -1,7 +1,7 @@
 // firebaseの初期化
 import { initializeApp } from "firebase-admin/app";
 initializeApp({
-  projectId: "metype-ffe25"
+  projectId: "metype-7e24a"
 });
 
 /* ----------------------------
